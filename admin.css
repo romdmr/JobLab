@@ -1,0 +1,120 @@
+/* Réinitialisation des marges et des rembourrages pour le corps de la page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style de l'en-tête */
+.header {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style du titre de l'en-tête */
+.title-admin {
+    font-size: 36px;
+    margin: 0;
+    color: #fff;
+}
+
+/* Style du sous-titre de l'en-tête */
+.table-title {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #bbb;
+}
+
+/* Style de la liste des tables */
+.table-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style des éléments de la liste */
+.table-list li {
+    margin-bottom: 10px;
+}
+
+/* Style des liens dans la liste */
+.table-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Au survol des liens */
+.table-list a:hover {
+    color: #0056b3;
+}
+
+/* Style du formulaire et des champs de saisie */
+form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style des boutons du formulaire */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style de la table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/* Style de l'en-tête de la table */
+.table-head {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style des cellules de la table */
+.table-body td {
+    padding: 10px;
+    text-align: center;
+}
